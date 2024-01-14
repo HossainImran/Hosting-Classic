@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&display=swap");
+:root {
+  /* text */
+  --text-xs: 0.75rem;
+  --text-sm: 0.875rem;
+  --text-base: 1rem;
+  --text-lg: 1.125rem;
+  --text-xl: 1.25rem;
+  --text-2xl: 1.5rem;
+  --text-3xl: 1.875rem;
+  --text-4xl: 2.25rem;
+  --text-5xl: 3rem;
+
+  --text-6xl: 3.75rem;
+  --text-7xl: 4.5rem;
+  --text-8xl: 6rem;
+  --text-9xl: 8rem;
+
+  /* color */
+  --clr-text: #02073e;
+  --clr-text2: #8c8c8c;
+  --clr-text3: #00a99d;
+  --clr-text4: #0f2137;
+  --clr-text5: #343d48;
+  --clr-btn: #3cc68a;
+  --clr-transparent: #f6f8fb;
+  --clr-price: #52acff;
+  --clr-gray5: rgba(128, 128, 128, 0.5);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  line-height: calc(1em + 0.5em);
+}
+html {
+  scroll-behavior: smooth;
+}
+
+body::-webkit-scrollbar {
+  display: -moz-deck;
+}
+
+body {
+  font-family: "DM Sans", sans-serif;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  cursor: pointer;
+  font-family: "DM Sans", sans-serif;
+}
+
+img,
+svg {
+  user-select: none;
+}
+
+/* Utility Classes */
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  /* border: 1px solid red; */
+}
+
+/* Media Querys for the website */
+
+/* xxs */
+/* @media (min-width: 320px) {} */
+/* xs */
+/* @media (min-width: 475px) {} */
+/* sm */
+/* @media (min-width: 640px) {} */
+/* md */
+/* @media (min-width: 768px) {} */
+/* lg */
+/* @media (min-width: 1024px) {} */
+/* xl */
+/* @media (min-width: 1280px) {} */
+/* 2xl  */
+/* @media (min-width: 1536px) {} */

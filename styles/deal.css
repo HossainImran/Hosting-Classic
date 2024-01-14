@@ -1,0 +1,89 @@
+.deal__box {
+  margin-top: 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 0.75rem;
+  padding: 3rem 1.5rem;
+  box-shadow: 1px 1px 5px 1px #52abff88;
+  border-radius: 8px;
+  max-width: 365px;
+  transition: all 0.4s ease;
+}
+
+.deal__box:hover {
+  transform: translateY(-8px);
+}
+
+.deal__box__title {
+  color: var(--clr-text4);
+  font-size: var(--text-lg);
+  font-weight: 700;
+}
+
+.deal__box__subtitle {
+  color: var(--clr-text5);
+  font-size: var(--text-base);
+  font-weight: 400;
+}
+
+.deal__box__price {
+  color: var(--clr-text4);
+  font-size: var(--text-2xl);
+  font-weight: 700;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+
+.deal__btn {
+  border: 1px solid var(--clr-btn);
+  background-color: transparent;
+  color: #3cc68a;
+}
+
+.deal__nav {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 1.5rem;
+}
+
+.deal__lists {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.list__text {
+  font-size: var(--text-base);
+  color: var(--clr-text5);
+  font-weight: 400;
+}
+
+.recommend {
+  position: relative;
+}
+
+.deal__recommend {
+  position: absolute;
+  top: -15px;
+  left: 0;
+  padding: 01rem 0;
+  background-color: #52acff;
+  color: #fff;
+  width: 100%;
+  border-radius: 8px 8px 0px 0;
+  box-shadow: 1px -1px 5px 1px #52abff88;
+  text-align: center;
+}
+
+.deal__recommend__text {
+  font-size: var(--text-sm);
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.op5 {
+  opacity: 0.5;
+}

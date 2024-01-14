@@ -1,0 +1,123 @@
+.footer__section {
+  margin-top: 4rem;
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 3rem;
+}
+
+.footer__top {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: start; /**/
+  gap: 2rem; /**/
+  justify-content: space-between;
+}
+
+.footer__top__items {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.footer__title {
+  font-size: var(--text-lg);
+  font-weight: 600;
+}
+
+.footer__nav {
+  display: flex;
+  flex-direction: column; /**/
+  gap: 0.5rem;
+}
+
+.footer__links {
+  color: var(--clr-text);
+  font-weight: 400;
+  transition: all 0.4s ease;
+}
+
+.footer__bottom {
+  padding-top: 2rem;
+  border-top: 1px solid rgba(0, 0, 0, 0.25);
+  width: 100%;
+  display: flex;
+  flex-direction: column; /**/
+  align-items: start; /**/
+  justify-content: space-between;
+}
+
+.footer__bottom__image {
+  display: flex;
+  flex-direction: column; /**/
+  align-items: start; /**/
+  gap: 1rem; /**/
+  margin-bottom: 2rem; /**/
+}
+
+.footer__bottom__image p {
+  font-size: var(--text-sm);
+  color: var(--clr-text4);
+}
+
+.footer__menu {
+  display: flex;
+  flex-direction: column; /**/
+  align-items: start;
+  justify-content: space-between;
+  /* gap: 3rem; */
+  gap: 1.5rem;
+}
+
+.footer__menu__links {
+  font-size: var(--text-base);
+  color: var(--clr-text);
+  transition: all 0.4s ease;
+}
+
+.footer__menu__links:hover,
+.footer__links:hover {
+  color: var(--clr-text2);
+}
+
+/* xxs */
+/* @media (min-width: 320px) {} */
+/* xs */
+/* @media (min-width: 475px) {} */
+/* sm */
+/* @media (min-width: 640px) {} */
+/* md */
+@media (min-width: 768px) {
+  .footer__top {
+    flex-direction: row;
+  }
+
+  .footer__bottom {
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .footer__bottom__image {
+    flex-direction: row;
+    align-items: center;
+    gap: 0;
+    margin-bottom: 0;
+  }
+  .footer__menu {
+    flex-direction: row; /**/
+    align-items: center;
+    gap: 1.5rem;
+  }
+}
+/* lg */
+@media (min-width: 1024px) {
+  .footer__menu {
+    gap: 3rem;
+  }
+}
+/* xl */
+/* @media (min-width: 1280px) {} */
+/* 2xl  */
+/* @media (min-width: 1536px) {} */

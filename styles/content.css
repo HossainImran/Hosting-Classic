@@ -1,0 +1,152 @@
+.content__section {
+  display: flex;
+  flex-direction: column; /* */
+  align-items: start;
+  gap: 3rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 0;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  color: var(--clr-text4);
+}
+
+.content__section img {
+  /*  */
+  width: 100%;
+}
+
+.content__box__section {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 2rem;
+  padding-left: 1rem;
+}
+
+.content__text__section {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 1rem;
+}
+
+.content__subtitle {
+  font-weight: 500;
+  /*  */
+  font-size: var(--text-2xl);
+}
+
+.content__text,
+.faq__ans {
+  /*  */
+  font-size: var(--text-sm);
+}
+
+.content__question__section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  width: 100%;
+}
+
+.faq__box {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 0.5rem;
+  width: 90%;
+  transition: all 0.4s ease;
+}
+
+.top__section {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+}
+
+.rotate {
+  transform: rotate(360deg) !important;
+}
+
+.block {
+  height: 180px !important;
+}
+
+.bottom__section {
+  height: 0;
+  overflow: hidden;
+  transition: all 0.4s ease;
+}
+
+.faq__ques {
+  font-weight: 500;
+  /*  */
+  font-size: var(--text-base);
+}
+
+.faq__btn {
+  transition: all 0.4s ease;
+  border: none;
+  background-color: transparent;
+  /*  */
+  font-size: var(--text-2xl);
+}
+
+/* xxs */
+@media (min-width: 320px) {
+  .block {
+    height: 155px !important;
+  }
+}
+/* xs */
+@media (min-width: 475px) {
+  .block {
+    height: 130px !important;
+  }
+
+  .content__subtitle {
+    font-size: var(--text-3xl);
+  }
+
+  .content__text,
+  .faq__ans {
+    font-size: var(--text-base);
+  }
+
+  .faq__ques {
+    font-size: var(--text-xl);
+  }
+
+  .faq__btn {
+    font-size: var(--text-3xl);
+  }
+}
+/* sm */
+/* @media (min-width: 640px) {} */
+/* md */
+@media (min-width: 768px) {
+  .block {
+    height: 105px !important;
+  }
+}
+/* lg */
+@media (min-width: 1024px) {
+  .block {
+    height: 80px !important;
+  }
+
+  .content__section {
+    flex-direction: row;
+  }
+  .content__section img {
+    width: 50%;
+  }
+}
+/* xl */
+/* @media (min-width: 1280px) {} */
+/* 2xl  */
+/* @media (min-width: 1536px) {} */
