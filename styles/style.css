@@ -38,7 +38,7 @@ html {
 }
 
 body::-webkit-scrollbar {
-  display: -moz-deck;
+  display: none;
 }
 
 body {
